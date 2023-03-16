@@ -1,5 +1,6 @@
 {
   "name": "vienv",
+  "main": "index.mjs",
   "description": "Deploy this to view all environment variables",
   "scripts": {
     "start": "micro -l tcp://0.0.0.0:${PORT-80}"
