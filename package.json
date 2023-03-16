@@ -1,0 +1,13 @@
+{
+  "name": "vienv",
+  "description": "Deploy this to view all environment variables",
+  "scripts": {
+    "start": "micro -l tcp://0.0.0.0:${PORT-80}"
+  },
+  "devDependencies": {
+    "micro": "^10.0.1"
+  },
+  "engines": {
+    "node": "^18.0.0"
+  }
+}

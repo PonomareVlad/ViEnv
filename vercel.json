@@ -1,0 +1,7 @@
+{
+  "installCommand": "npm ci --omit=dev",
+  "public": true,
+  "github": {
+    "silent": true
+  }
+}
