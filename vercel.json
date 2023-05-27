@@ -1,5 +1,6 @@
 {
   "installCommand": "npm ci --omit=dev",
+  "buildCommand": "node index.mjs",
   "public": true,
   "github": {
     "silent": true
